@@ -1,0 +1,145 @@
+html,body,#wrapper {
+	width: 100%;
+	height: 95%;
+	margin: 0px;
+}
+
+h1 {
+	color: #3d4c53;
+	text-align: center;
+	font-family: sans-serif;
+}
+p{
+  font-family: sans-serif;
+  color: #3d4c53;
+}
+section{
+  margin:auto;
+  width: 700px;
+  font-family: sans-serif;
+}
+.chart {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+
+.axis path,.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+
+.bar {
+	fill: #33b5e5;
+}
+.bar-silver{
+  fill:#DBDDE0;
+}
+
+.bar-green {
+	fill: #b2df8a;
+}
+.bar-purple{
+  fill:#6a3d9a;
+}
+.bar-violet{
+  fill:#6a3d9a;
+}
+.bar-yellow {
+	fill: #f8ea67;
+}
+.bar-turquoise{
+  fill:#b6fcd5;
+}
+.bar-pink {
+  fill: #fb9a99;
+}
+#tag {
+  color: white;
+  background: #3d4c53;
+  width: 150px;
+  position: absolute;
+  display: none;
+  padding:3px 6px;
+  margin-left: -80px;
+  font-size: 11px;
+}
+
+#tag:before {
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  left: 50%;
+  margin-left: -5px;
+  position: absolute;
+  width: 0;
+  border-width: 10px;
+  border-bottom-color: #3d4c53;
+  top: -20px;
+}
+
+.Software {
+  color:#FFFFFF;
+  background-color: #33b5e5;
+  padding-left:10px; 
+  padding-right:10px; 
+  border-radius: 8px;
+}
+
+.Mobile {
+  color:#666666;
+  background-color: #DBDDE0;
+  padding-left:10px; 
+  padding-right:10px; 
+  border-radius: 8px;
+}
+
+.Hardware {
+  color:#6c8952;
+  background-color: #b2df8a;
+  padding-left:10px; 
+  padding-right:10px; 
+  border-radius: 8px;
+}
+
+.Advertising {
+  color:#FFFFFF;
+  background-color: #6a3d9a;
+  padding-left:10px; 
+  padding-right:10px; 
+  border-radius: 8px;
+}
+
+.Media {
+  color:#6a3d9a;
+  background-color: #cab2d6;
+  padding-left:10px; 
+  padding-right:10px;
+  border-radius: 8px;
+
+}
+
+.Search {
+  color:#a7a751;
+  background-color: #f8ea67;
+  padding-left:10px; 
+  padding-right:10px;
+  border-radius: 8px; 
+}
+
+.eCommerce {
+  color:#3f875f;
+  background-color: #b6fcd5;
+  padding-left:10px; 
+  padding-right:10px;
+  border-radius: 8px; 
+}
+
+.Other {
+  color:#FFFFFF;
+  background-color: #fb9a99;
+  padding-left:10px; 
+  padding-right:10px;
+  border-radius: 8px; 
+}
